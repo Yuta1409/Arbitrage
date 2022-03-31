@@ -21,3 +21,9 @@ html,body {
 #pied { 
 	background-color:#95adc9; 
 }
+
+th,tr,td{
+	border: 1px solid black;
+}
+
+
