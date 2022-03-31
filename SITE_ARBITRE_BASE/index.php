@@ -8,36 +8,35 @@
 <body>
 <!-- ENTETE --> 
 <div id="entete">
-	<?php
-	include "include/entete.php";
-	?>
+	<?php include "include/entete.php"; ?>
 </div> 
- 
 <!-- CONTENEUR CENTRAL  --> 
 <div id="centre"> 
- 
-	<!-- COLONNE GAUCHE  --> 
+ 	<!-- COLONNE GAUCHE  --> 
 	<div id="menu"> 
-		<?php
-		include "include/menu.php";
-		?>
+		<?php include "include/menu.php"; ?>
 	</div> 
  
 	<!-- CONTENU  --> 
 	<div id="navigation"> 
 		<?php
-		include "include/accueil.php";
+		if(!isset($_GET["action"])){
+			include "include/accueil.php"; // page d'accueil
+		}
+		else{
+			if(file_exists("pages/$_GET[action].php")){
+				include "pages/$_GET[action].php";
+			}
+			else{
+				include "include/erreur.php";
+			}
+		}
 		?>
 	</div> 
-	 
 </div> 
- 
 <!-- PIED DE PAGE --> 
 <div id="pied">
-	<?php
-	include "include/pied.php";
-	?>
+	<?php include "include/pied.php"; ?>
 </div>
-
 </body>
 </html>

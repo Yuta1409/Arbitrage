@@ -1,4 +1,4 @@
-<h2>Ceci est la page d'accueil ...</h2>
+﻿<h2>ARBITRE ...</h2>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt ipsum lectus, ut vulputate turpis luctus at. Sed in aliquam turpis, eget dignissim nisi. Maecenas feugiat viverra lorem eget aliquet. Cras eu ultricies ante. Aenean ornare justo vel quam luctus euismod. Aliquam dignissim lacus orci, nec condimentum tortor malesuada eu. In pretium nisl at dui vulputate, quis lobortis dolor euismod. Curabitur non turpis libero. Integer sem risus, porttitor at suscipit non, viverra a dolor. Nam id ullamcorper enim. Curabitur velit tellus, vehicula in efficitur sit amet, interdum in ex. In sit amet ante nibh. Ut dignissim sem urna, eget eleifend leo dictum non. Mauris finibus mi arcu, sit amet pulvinar tellus consequat at. Nullam nec mollis elit. In aliquam sapien tincidunt scelerisque egestas.
 <br/>
