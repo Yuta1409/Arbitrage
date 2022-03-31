@@ -71,7 +71,7 @@ if (isset($_GET['btnAjouter'])) {
     </p>
     
     <table id="ta">
-      
+        
       <tr>
         <th>Gestion des Equipes</th>
       </tr>
