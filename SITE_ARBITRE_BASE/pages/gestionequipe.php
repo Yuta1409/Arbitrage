@@ -12,34 +12,26 @@
 
 <?php
 include "bd_connexion.php";
-if (isset($_GET['btnAjouter'])) {
+if (isset($_POST['btnAjouter'])) {
   $connex = connexionPDO();
   $req = "INSERT INTO equipe(nom_equipe, num_club, num_championnat) VALUES(:param1, :param2 ,:param3)";
   $prep = $connex->prepare($req);
-  $prep->bindValue('param1', $_GET['nom_equipe']);
+  $prep->bindValue('param1', $_POST['nom_equipe']);
   $prep->bindValue('param2', $_POST['num_club']);
   $prep->bindValue('param3', $_POST['num_championnat']);
   $prep->execute();
-
-  $afficher = "SELECT * FROM dalton";
-  $req2 = $connex->prepare($afficher);
-  $req2->execute();
-  echo "<h1> Equipe.</h1>";
-  while ($ligne = $req2->fetch(PDO::FETCH_OBJ)) {
-    echo "$ligne->num_equipe $ligne->nom_equipe $ligne->num_club $ligne->num_championnat<br/>";
-  }
-} else {
 }
+
 ?>
-<form method="GET" action="">
+<form method="POST" action="">
   <fieldset>
-    <legend>Gestion de la competition :</legend>
+    <legend>Gestion des équipes :</legend>
     <p>
       <br>
-      <label for="taille">nom_equipe :</label>
+      <label for="taille">Nom de l'équipe :</label>
       <input type="text" name="nom_equipe" size="20" />
       <br><br>
-      <label for="taille">nom_club :</label>
+      <label for="taille">Nom du club :</label>
       <select name="num_club" class="retour">
 
         <?php
@@ -53,7 +45,7 @@ if (isset($_GET['btnAjouter'])) {
       </select>
 
       <br><br>
-      <label for="taille">num_championnat :</label>
+      <label for="taille">Nom du championnat :</label>
       <select name="num_championnat" class="retour">
 
         <?php
@@ -69,18 +61,35 @@ if (isset($_GET['btnAjouter'])) {
     <p>
       <button type="submit" value="ajouter" name="btnAjouter">Ajouter</button>
     </p>
-    
+
     <table id="ta">
-        
+
       <tr>
         <th>Gestion des Equipes</th>
       </tr>
       <tr>
-        <td>n° equipe</td>
-        <td>nom equipe</td>
-        <td>nom club</td>
-        <td>nom championnat</td>
+        <td><b>n° equipe</b></td>
+        <td><b>nom equipe</b></td>
+        <td><b>nom club</b></td>
+        <td><b>nom championnat</b></td>
       </tr>
+
+      <?php
+      include "bd.equipe.php";
+      $EquipeInfo = getEquipeInfo();
+
+      foreach ($EquipeInfo as $uneequipe) {
+
+      ?>
+        <tr>
+          <td><?php echo $uneequipe['num_equipe']; ?></td>
+          <td><?php echo $uneequipe["nom_equipe"]; ?></td>
+          <td><?php echo $uneequipe["nom_club"]; ?></td>
+          <td><?php echo $uneequipe["nom_championnat"]; ?></td>
+        </tr>
+      <?php
+      }
+      ?>
       <tr>
         <td><input class="txt" type="texte" name="txtNumeroEquipe"></td>
         <td><input class="txt" type="texte" name="txtNomEquipe"></td>
