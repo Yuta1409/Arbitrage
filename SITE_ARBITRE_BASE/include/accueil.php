@@ -1,12 +1,21 @@
-<h2>Ceci est la page d'accueil ...</h2>
+<link rel="stylesheet" href="css/style.css">
+
+
+<h2>L'histoire du basket-ball</h2>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt ipsum lectus, ut vulputate turpis luctus at. Sed in aliquam turpis, eget dignissim nisi. Maecenas feugiat viverra lorem eget aliquet. Cras eu ultricies ante. Aenean ornare justo vel quam luctus euismod. Aliquam dignissim lacus orci, nec condimentum tortor malesuada eu. In pretium nisl at dui vulputate, quis lobortis dolor euismod. Curabitur non turpis libero. Integer sem risus, porttitor at suscipit non, viverra a dolor. Nam id ullamcorper enim. Curabitur velit tellus, vehicula in efficitur sit amet, interdum in ex. In sit amet ante nibh. Ut dignissim sem urna, eget eleifend leo dictum non. Mauris finibus mi arcu, sit amet pulvinar tellus consequat at. Nullam nec mollis elit. In aliquam sapien tincidunt scelerisque egestas.
-<br/>
-Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin venenatis dolor purus. Curabitur semper nibh sed sagittis sagittis. Pellentesque condimentum scelerisque magna, eu rutrum tortor ultricies vel. Donec congue efficitur eros et ultrices. Maecenas felis leo, lacinia at purus non, malesuada pulvinar nulla. Maecenas eu blandit mi. Aliquam sit amet dui felis. Praesent a felis id justo convallis sodales quis sed velit.
-<br/>
-Pellentesque ante sapien, rhoncus sed nulla nec, pharetra porttitor nulla. Maecenas mollis volutpat vulputate. Mauris viverra fermentum nunc vitae molestie. Sed egestas mi accumsan leo consectetur facilisis. Fusce eleifend aliquam ex sit amet convallis. Aenean non augue molestie, aliquam massa nec, suscipit urna. Aliquam sed mi justo. Aenean gravida erat turpis, consectetur placerat libero posuere vitae. Nullam non accumsan velit. Pellentesque lacinia eros lectus, eu sollicitudin leo pharetra id. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean molestie urna a neque pharetra viverra. Nunc ac sem id sapien ultricies condimentum quis vel odio.
-<br/>
-Vivamus eu tristique eros. Phasellus suscipit volutpat scelerisque. Donec ut venenatis risus. Mauris et efficitur dolor. Vestibulum placerat sollicitudin tortor, a pellentesque ex hendrerit et. Nam mi nunc, tempor pharetra varius sed, hendrerit eu ante. Morbi at ligula vel libero pretium convallis et sit amet massa. Mauris bibendum fermentum orci et dignissim. In at facilisis lacus. Vestibulum vitae sollicitudin felis. Quisque vitae nunc magna. Nullam ut mauris lacus. Aenean aliquam lacus interdum euismod eleifend. Cras viverra volutpat nisl, in rhoncus tellus tempor at. Fusce sagittis rutrum libero. Morbi aliquam, nibh blandit varius dapibus, est tortor elementum tortor, nec volutpat lectus mi rutrum augue.
-<br/>
-Morbi vel diam odio. Mauris ipsum risus, gravida non magna ut, cursus egestas nulla. Curabitur vel imperdiet metus. In eget diam ac risus rhoncus facilisis nec id odio. Quisque sit amet aliquet nulla. Fusce quis ornare metus, posuere dignissim eros. Donec vehicula turpis eget congue pellentesque. Nullam cursus eleifend urna sed fringilla. Aliquam in dapibus libero. Sed est leo, consectetur quis elementum non, tincidunt vitae tellus. Curabitur tellus sapien, convallis eu efficitur eu, placerat in diam. Fusce eros elit, egestas ut pretium nec, dapibus at arcu. Mauris vel enim ut neque sagittis auctor.
+Le basket-ball a été inventé en 1891 par James Naismith, un professeur d’éducation physique canadien du collège de Springfield dans l’État du Massachusetts (États-Unis). Il cherchait à occuper ses étudiants entre les saisons de football et de base-ball, pendant l’hiver, au cours duquel la pratique du sport en extérieur était difficile. Naismith souhaitait également leur trouver une activité où les contacts physiques soient restreints, afin d’éviter les risques de blessure.
+<br><br>
+Un jour, il reprit l’idée d’un ancien jeu de balle maya et plaça deux caisses de pêche sur les rampes du gymnase. Le but de ses étudiants était de faire pénétrer un ballon dans ces caisses en bois pour marquer un but. Les caisses étant en hauteur, ce jeu nécessitait autant d’adresse que de force brute. Naismith établit rapidement 13 règles pour rendre ce jeu praticable.
+<br><br>
+Ce sport fut baptisé basket-ball, ce qui signifie littéralement en anglais : « ballon panier ». Le tout premier match de l’histoire eut lieu le 21 décembre 1891 et se termina sur le score de 1 à 0.
+<br><br>
+La même année, le jeu fut adapté pour être joué par des femmes.
+<br><br>
+Au début de son histoire, le basket était surtout porté sur le jeu offensif et la défense était reléguée au second plan. La défense était l’aspect passif du basket où on attendait l’échec de l’adversaire.
+Les règles du Basketball sont assez simples, chaque équipe dispose chacun de 5 joueurs principaux sur le terrain et de 5 ou 7 joueurs remplaçants.
+<br><br>
+Un panier équivaut à deux points et trois points si le ballon est tiré au-delà de la ligne de 6,25 m. Un seul point est attribué lors d’un lancer franc réussi.
+En ce qui concerne les fautes, le contact physique est interdit, c’est une faute personnelle. Il existe également la faute technique et la faute disqualifiante qui pourrait mener à l’expulsion d’un joueur. À noter également qu’un joueur commettant cinq fautes au total sera directement exclu du terrain.
+Les différentes postes sont le pivot, le meneur, le petit ailier, l’ailier fort et l’arrière. Il existe nombreux types de fautes que les joueurs devraient éviter, sans citer que le marché, les violations des temps, hors jeu, contact avec le pied, retour en zone, etc.
+<br><br>
 </p>
