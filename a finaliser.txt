@@ -1,4 +1,4 @@
-MODIFIER : - mettre les valeurs de la table équipe (la colonne sélectionnée) dans les textbox et menu déroulant
-	   - régler l'erreur après modif
 
-SUPPRIMER : - pouvoir supprimer uniquement les équipes qui n'ont pas de num_club num_championnat en arbitre;
+SUPPRIMER : - pouvoir supprimer uniquement les équipes qui n'ont pas d'arbitres liés
+
+(éventuellement) : améliorer css

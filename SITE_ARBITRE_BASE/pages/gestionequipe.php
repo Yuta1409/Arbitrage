@@ -96,6 +96,9 @@ if (isset($_POST['btnAjouter'])) {
           $nomChamp = $_POST['champ'];
           getEquipeModifier($idE, $nomE, $nomClub, $nomChamp);      // Appel de la fonction qui contient la requête et les variables de données des colonnes, ligne la plus importante.
         }
+
+
+
         ?>
         <container>
 
@@ -105,24 +108,29 @@ if (isset($_POST['btnAjouter'])) {
               <td><?php echo $uneequipe["nom_club"]; ?></td>
               <td><?php echo $uneequipe["nom_championnat"]; ?></td>
               <td><a href="index.php?action=gestionequipe&idE=<?php echo $uneequipe['num_equipe']; ?>">Modifier</a></td>
+
               <td><a href="index.php?action=gestionequipe&idSup=<?php echo $uneequipe['num_equipe']; ?>">Supprimer</a></td>
             </tr>
 
 
         </container>
 
+
+
+        
       <?php
       }
       ?>
       <?php
 
       if (isset($_GET["idE"])) {
+        $EquipeInfoByID = getEquipeInfoId($_GET["idE"]);
       ?>
         <form method="post" action="">
           <td></td>
-          <td><input type="text" id="nomE" name="nomE"></td>
-          <td><input type="text" id="club" name="club"></td>
-          <td><input type="text" id="champ" name="champ"></td>
+          <td><input type="text" id="nomE" value="<?php echo $EquipeInfoByID["nom_equipe"]; ?>" name="nomE"></td>
+          <td><input type="text" id="club" value="<?php echo $EquipeInfoByID["num_club"]; ?>" name="club"></td>
+          <td><input type="text" id="champ" value ="<?php echo $EquipeInfoByID["num_championnat"]; ?>" name="champ"></td>
           <td><button type="submit" name="Valider" value="Valider">Valider</button></td>
         </form>
       <?php
