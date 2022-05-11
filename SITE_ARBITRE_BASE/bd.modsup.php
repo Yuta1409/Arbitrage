@@ -23,7 +23,7 @@ function getEquipeModifier($idE ,$nomE, $nomClub, $nomChamp) {
            $req->bindValue(':id', $id);        // relie le paramètre :id qui contient le numéro d'équipe à une variable.
            $req->execute();                    // exécuter la requête.
        }catch (PDOException $e) {
-           print "Erreur !:" . $e->getMessage();
+           print "Erreur ! Un arbitre est lié à cette équipe, impossible de supprimer.";
            die();
        } 
    }
