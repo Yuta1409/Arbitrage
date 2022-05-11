@@ -107,9 +107,8 @@ if (isset($_POST['btnAjouter'])) {
               <td><?php echo $uneequipe["nom_equipe"]; ?></td>
               <td><?php echo $uneequipe["nom_club"]; ?></td>
               <td><?php echo $uneequipe["nom_championnat"]; ?></td>
-              <td><a href="index.php?action=gestionequipe&idE=<?php echo $uneequipe['num_equipe']; ?>">Modifier</a></td>
-
-              <td><a href="index.php?action=gestionequipe&idSup=<?php echo $uneequipe['num_equipe']; ?>">Supprimer</a></td>
+              <td><a href="index.php?action=gestionequipe&idE=<?php echo $uneequipe['num_equipe']; ?>" name="mod">Modifier </a></td>
+              <td><a href="index.php?action=gestionequipe&idSup=<?php echo $uneequipe['num_equipe']; ?>" name="sup" >Supprimer</a></td>
             </tr>
 
 
@@ -134,7 +133,7 @@ if (isset($_POST['btnAjouter'])) {
           <td><button type="submit" name="Valider" value="Valider">Valider</button></td>
         </form>
       <?php
-      }
+      } 
       ?>
     </table>
   </fieldset>
