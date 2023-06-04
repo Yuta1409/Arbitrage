@@ -1,4 +1,4 @@
-select {
+select { 
     width: 15%;
     padding: 6px 5px;
     margin: 5px 0;
@@ -61,7 +61,7 @@ a[name=mod] {
     text-decoration: none;
     display: inline-block;
 }
-
+    
 a[name=sup] {
     background-color: #fb7b7b;
     color: white;
@@ -97,8 +97,5 @@ a[name=sup] {
     text-decoration: none;
     padding: 5px 0;
 }
-
-/*table tr td a 
-
 
 
